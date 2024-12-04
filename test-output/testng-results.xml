@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T20:35:06 COT" name="Default suite" finished-at="2024-12-03T20:35:11 COT" duration-ms="5445">
+  <suite started-at="2024-12-03T21:29:01 COT" name="Default suite" finished-at="2024-12-03T21:29:08 COT" duration-ms="7274">
     <groups>
     </groups>
-    <test started-at="2024-12-03T20:35:06 COT" name="Default test" finished-at="2024-12-03T20:35:11 COT" duration-ms="5445">
-      <class name="testingforomi.ResponsiveMenuPage">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.ResponsiveMenuPage@4988d8b8]" started-at="2024-12-03T20:35:06 COT" name="beforeClass" finished-at="2024-12-03T20:35:10 COT" duration-ms="4300" status="PASS">
+    <test started-at="2024-12-03T21:29:01 COT" name="Default test" finished-at="2024-12-03T21:29:08 COT" duration-ms="7274">
+      <class name="testingforomi.BuildComputer">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.BuildComputer@4988d8b8]" started-at="2024-12-03T21:29:01 COT" name="beforeClass" finished-at="2024-12-03T21:29:06 COT" duration-ms="4540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="MenuBurgerTesting()[pri:0, instance:testingforomi.ResponsiveMenuPage@4988d8b8]" started-at="2024-12-03T20:35:10 COT" name="MenuBurgerTesting" finished-at="2024-12-03T20:35:11 COT" duration-ms="1120" status="PASS">
+        <test-method signature="MenuBurgerTesting()[pri:0, instance:testingforomi.BuildComputer@4988d8b8]" started-at="2024-12-03T21:29:06 COT" name="MenuBurgerTesting" finished-at="2024-12-03T21:29:08 COT" duration-ms="2709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MenuBurgerTesting -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.ResponsiveMenuPage@4988d8b8]" started-at="2024-12-03T20:35:11 COT" name="afterClass" finished-at="2024-12-03T20:35:11 COT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.BuildComputer@4988d8b8]" started-at="2024-12-03T21:29:08 COT" name="afterClass" finished-at="2024-12-03T21:29:08 COT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.ResponsiveMenuPage -->
+      </class> <!-- testingforomi.BuildComputer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

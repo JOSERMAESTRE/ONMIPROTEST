@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testingforomi.ResponsiveMenuPage">
+      <class name="testingforomi.BuildComputer">
         <methods>
-          <include name="afterClass"/>
           <include name="MenuBurgerTesting"/>
           <include name="beforeClass"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- testingforomi.ResponsiveMenuPage -->
+      </class> <!-- testingforomi.BuildComputer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
