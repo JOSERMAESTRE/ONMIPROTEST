@@ -12,7 +12,7 @@ public class CheckOut extends Base {
 	public CheckOut(WebDriver driver) {
 		super(driver);// TODO Auto-generated constructor stub
 	}
-	
+
 	public void CheckingOut() {
 		System.out.println(FindElement(LinkShoppingCarLocator).getText());
 		click(LinkShoppingCarLocator);

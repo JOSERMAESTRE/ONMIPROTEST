@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T21:29:01 COT" name="Default suite" finished-at="2024-12-03T21:29:08 COT" duration-ms="7274">
+  <suite started-at="2024-12-04T18:04:22 COT" name="Default suite" finished-at="2024-12-04T18:04:34 COT" duration-ms="12544">
     <groups>
     </groups>
-    <test started-at="2024-12-03T21:29:01 COT" name="Default test" finished-at="2024-12-03T21:29:08 COT" duration-ms="7274">
-      <class name="testingforomi.BuildComputer">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.BuildComputer@4988d8b8]" started-at="2024-12-03T21:29:01 COT" name="beforeClass" finished-at="2024-12-03T21:29:06 COT" duration-ms="4540" status="PASS">
+    <test started-at="2024-12-04T18:04:22 COT" name="Default test" finished-at="2024-12-04T18:04:34 COT" duration-ms="12544">
+      <class name="testingforomi.AdvancedSearchTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.AdvancedSearchTest@72e34f77]" started-at="2024-12-04T18:04:22 COT" name="beforeClass" finished-at="2024-12-04T18:04:28 COT" duration-ms="5897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="MenuBurgerTesting()[pri:0, instance:testingforomi.BuildComputer@4988d8b8]" started-at="2024-12-03T21:29:06 COT" name="MenuBurgerTesting" finished-at="2024-12-03T21:29:08 COT" duration-ms="2709" status="PASS">
+        <test-method signature="AdvancedSearchTesting()[pri:0, instance:testingforomi.AdvancedSearchTest@72e34f77]" started-at="2024-12-04T18:04:28 COT" name="AdvancedSearchTesting" finished-at="2024-12-04T18:04:31 COT" duration-ms="3561" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MenuBurgerTesting -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.BuildComputer@4988d8b8]" started-at="2024-12-03T21:29:08 COT" name="afterClass" finished-at="2024-12-03T21:29:08 COT" duration-ms="1" status="PASS">
+        </test-method> <!-- AdvancedSearchTesting -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.AdvancedSearchTest@72e34f77]" started-at="2024-12-04T18:04:31 COT" name="afterClass" finished-at="2024-12-04T18:04:34 COT" duration-ms="3001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.BuildComputer -->
+      </class> <!-- testingforomi.AdvancedSearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

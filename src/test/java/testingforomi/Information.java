@@ -21,17 +21,17 @@ public class Information extends Base {
 	By ShippingMethodLocator = By.id("shippingoption_1");
 	By PaymentMethodLocator = By.id("paymentmethod_3");
 	By POLocator = By.id("PurchaseOrderNumber");
-	
+
 	By ButtonLocator1 = By.xpath("//div[@id='billing-buttons-container']//input[ @title='Continue']");
 	By ButtonLocator2 = By.xpath("//div[@id='shipping-buttons-container']//input[ @title='Continue']");
 	By ButtonLocator3 = By.xpath(
 			"//div[@id='shipping-method-buttons-container']//input[@type='button' and @value='Continue']\r\n" + "");
 	By ButtonLocator4 = By.xpath(
 			"//div[@id='payment-method-buttons-container']//input[@type='button' and @value='Continue']\r\n" + "");
-	By ButtonLocator5 = By.xpath(
-			"//div[@id='payment-info-buttons-container']//input[@type='button' and @value='Continue']\r\n" + "");
-	By ButtonLocator6 = By.xpath(
-			"//div[@id='confirm-order-buttons-container']//input[@type='button' and @value='Confirm']\r\n" + "");
+	By ButtonLocator5 = By
+			.xpath("//div[@id='payment-info-buttons-container']//input[@type='button' and @value='Continue']\r\n" + "");
+	By ButtonLocator6 = By
+			.xpath("//div[@id='confirm-order-buttons-container']//input[@type='button' and @value='Confirm']\r\n" + "");
 
 	public Information(WebDriver driver) {
 		super(driver);// TODO Auto-generated constructor stub

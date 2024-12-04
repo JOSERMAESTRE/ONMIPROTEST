@@ -16,6 +16,7 @@ public class ShoppingTest {
 	private CheckOut CheckOut;
 	private Information Information;
 	By ComfirmationOrderMessage = By.xpath("//div[@class='title']");
+
 	@BeforeClass
 	public void beforeClass() {
 		Base = new Base(driver);
@@ -26,7 +27,7 @@ public class ShoppingTest {
 		AddToCar = new AddToCar(driver);
 		CheckOut = new CheckOut(driver);
 		Information = new Information(driver);
-		
+
 	}
 
 	@Test
@@ -34,7 +35,8 @@ public class ShoppingTest {
 		AddToCar.AddtoCart();
 		CheckOut.CheckingOut();
 		Information.Billingaddress();
-		assertEquals("Your order has been successfully processed!", Base.FindElement(ComfirmationOrderMessage).getText());
+		assertEquals("Your order has been successfully processed!",
+				Base.FindElement(ComfirmationOrderMessage).getText());
 	}
 
 	@AfterClass

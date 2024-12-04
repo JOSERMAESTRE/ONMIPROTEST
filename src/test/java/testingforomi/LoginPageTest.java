@@ -20,9 +20,9 @@ public class LoginPageTest {
 	}
 
 	@Test
-	public void f() {
+	public void TestLogin() {
 		LoginPage.Login_In("joserm@gmail.com", "123456");
-		assertFalse("El mensaje de error no se mostró.", LoginPage.IsErrorMessageDisplayed());
+		assertFalse("El mensaje de error se mostró.", LoginPage.IsErrorMessageDisplayed());
 	}
 
 	@AfterClass

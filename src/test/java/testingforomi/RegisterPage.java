@@ -20,7 +20,7 @@ public class RegisterPage extends Base {
 
 	public void RegisterUser(String[] Data) {
 		if (Data[0].equals("Male")) {
-		    click(GenderLocator);
+			click(GenderLocator);
 		}
 		Type(Data[1], FirstNameLocator);
 		Type(Data[2], LastNameLocator);
