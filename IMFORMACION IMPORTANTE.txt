@@ -1,7 +1,11 @@
 IMFORMACION IMPORTANTE
 Dentro de este repositorio encontraras
 1. archivo .feature el cual tiene los casos de prueba en formato Gherkin
+<<<<<<< HEAD
 2. archivo .pdf que contiene reporte de cobertura de las pruebas
+=======
+2. archivo .pdf que contiene resporte de covertura de las pruebas
+>>>>>>> 2fbd72d6d71c25201c14fd7a408f852847a66c9a
 3. en la carpeta test-output encontraras el archivo emailable-report que contiene el reporte TESTNG de las pruebas ejecutadas
 
 RECOMENDACIONES
