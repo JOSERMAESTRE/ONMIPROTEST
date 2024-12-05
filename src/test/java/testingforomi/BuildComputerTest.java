@@ -38,7 +38,9 @@ public class BuildComputerTest {
 	}
 
 	@AfterClass
-	public void afterClass() {
+	public void afterClass() throws InterruptedException {
+		Thread.sleep(3000);
+		driver.quit();
 	}
 
 }

@@ -1,0 +1,11 @@
+IMFORMACION IMPORTANTE
+Dentro de este repositorio encontraras
+1. archivo .feature el cual tiene los casos de prueba en formato Gherkin
+2. archivo .doc que contiene resporte de covertura de las pruebas
+3. en la carpeta test-output encontraras el archivo emailable-report que contiene el reporte TESTNG de las pruebas ejecutadas
+
+RECOMENDACIONES
+para ejecutar los script deberas instalar Eclipse IDE for Java Developers - 2024-09
+y para ejecutar las pruebas deberas hacerlo desde el archivo testng.xml
+las pruebas son ejecutadas en el navegador Chrome Versión 131.0.6778.86 (Build oficial) (64 bits)
+

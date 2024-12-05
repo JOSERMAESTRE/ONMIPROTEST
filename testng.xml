@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteEcommerce">
+	<test name="Register Page Test">
+		<classes>
+			<class name="testingforomi.RegisterPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="Login Page Test">
+		<classes>
+			<class name="testingforomi.LoginPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="Shopping Page Test">
+		<classes>
+			<class name="testingforomi.ShoppingTest" />
+		</classes>
+	</test>
+
+	<test name="Rsponsive Menu Page Test">
+		<classes>
+			<class name="testingforomi.ResponsiveMenuPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="Responsive Bouild Computer Page Test">
+		<classes>
+			<class name="testingforomi.BuildComputerTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="Responsive Advanced Search Page Test">
+		<classes>
+			<class name="testingforomi.AdvancedSearchTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<!-- Test -->
+</suite> <!--
+SuiteEcommerce -->

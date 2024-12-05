@@ -21,7 +21,7 @@ public class LoginPageTest {
 
 	@Test
 	public void TestLogin() {
-		LoginPage.Login_In("joserm@gmail.com", "123456");
+		LoginPage.Login_In("Masterjr@gmail.com", "123456");
 		assertFalse("El mensaje de error se mostró.", LoginPage.IsErrorMessageDisplayed());
 	}
 
