@@ -3,41 +3,41 @@
 <suite name="SuiteEcommerce">
 	<test name="Register Page Test">
 		<classes>
-			<class name="testingforomi.RegisterPageTest" />
+			<class name="testingforomi.RegisterUser.RegisterPageTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
 	<test name="Login Page Test">
 		<classes>
-			<class name="testingforomi.LoginPageTest" />
+			<class name="testingforomi.Login.LoginPageTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
 	<test name="Shopping Page Test">
 		<classes>
-			<class name="testingforomi.ShoppingTest" />
+			<class name="testingforomi.Shopping.ShoppingTest" />
 		</classes>
 	</test>
 
 	<test name="Rsponsive Menu Page Test">
 		<classes>
-			<class name="testingforomi.ResponsiveMenuPageTest" />
+			<class name="testingforomi.ResponsiveMenu.ResponsiveMenuPageTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
 	<test name="Responsive Bouild Computer Page Test">
 		<classes>
-			<class name="testingforomi.BuildComputerTest" />
+			<class name="testingforomi.ResponsiveBuildComputer.BuildComputerTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
 	<test name="Responsive Advanced Search Page Test">
 		<classes>
-			<class name="testingforomi.AdvancedSearchTest" />
+			<class name="testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest" />
 		</classes>
 	</test> <!--
 	Test -->

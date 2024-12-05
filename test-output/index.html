@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-SuiteEcommerce" class="navigator-link">
-              <span class="suite-name border-passed">SuiteEcommerce</span>
+              <span class="suite-name border-failed">SuiteEcommerce</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteEcommerce" class="hide-methods failed suite-SuiteEcommerce"> (hide)</a> <!-- hide-methods failed suite-SuiteEcommerce -->
+                      <a href="#" panel-name="suite-SuiteEcommerce" class="show-methods failed suite-SuiteEcommerce"> (show)</a> <!-- show-methods failed suite-SuiteEcommerce -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteEcommerce">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.RegisterUser.RegisterPageTest" class="method navigator-link" hash-for-method="TestRegister">TestRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteEcommerce -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,32 +117,27 @@
                     <div class="method-list-content passed suite-SuiteEcommerce">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.AdvancedSearchTest" class="method navigator-link" hash-for-method="AdvancedSearchTesting">AdvancedSearchTesting</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest" class="method navigator-link" hash-for-method="AdvancedSearchTesting">AdvancedSearchTesting</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.ResponsiveMenuPageTest" class="method navigator-link" hash-for-method="MenuBurgerTesting">MenuBurgerTesting</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.ResponsiveMenu.ResponsiveMenuPageTest" class="method navigator-link" hash-for-method="MenuBurgerTesting">MenuBurgerTesting</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.BuildComputerTest" class="method navigator-link" hash-for-method="MenuBurgerTesting">MenuBurgerTesting</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.ResponsiveBuildComputer.BuildComputerTest" class="method navigator-link" hash-for-method="MenuBurgerTesting">MenuBurgerTesting</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.ShoppingTest" class="method navigator-link" hash-for-method="ShopTest">ShopTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.Shopping.ShoppingTest" class="method navigator-link" hash-for-method="ShopTest">ShopTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.LoginPageTest" class="method navigator-link" hash-for-method="TestLogin">TestLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.RegisterPageTest" class="method navigator-link" hash-for-method="TestRegister">TestRegister</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteEcommerce" title="testingforomi.Login.LoginPageTest" class="method navigator-link" hash-for-method="TestLogin">TestLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SuiteEcommerce -->
@@ -143,10 +152,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SuiteEcommerce" class="panel SuiteEcommerce">
-          <div class="suite-SuiteEcommerce-class-passed">
+          <div class="suite-SuiteEcommerce-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testingforomi.RegisterPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testingforomi.RegisterUser.RegisterPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -154,14 +163,22 @@
                   <a name="TestRegister">
                   </a> <!-- TestRegister -->
                   <span class="method-name">TestRegister</span>
+                  <div class="stack-trace">java.lang.AssertionError: El mensaje de error se mostró.
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at testingforomi.RegisterUser.RegisterPageTest.TestRegister(RegisterPageTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteEcommerce-class-passed -->
+          </div> <!-- suite-SuiteEcommerce-class-failed -->
           <div class="suite-SuiteEcommerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testingforomi.BuildComputerTest</span>
+              <span class="class-name">testingforomi.ResponsiveBuildComputer.BuildComputerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -176,22 +193,7 @@
           <div class="suite-SuiteEcommerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testingforomi.ShoppingTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ShopTest">
-                  </a> <!-- ShopTest -->
-                  <span class="method-name">ShopTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteEcommerce-class-passed -->
-          <div class="suite-SuiteEcommerce-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testingforomi.LoginPageTest</span>
+              <span class="class-name">testingforomi.Login.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -206,7 +208,22 @@
           <div class="suite-SuiteEcommerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testingforomi.AdvancedSearchTest</span>
+              <span class="class-name">testingforomi.Shopping.ShoppingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShopTest">
+                  </a> <!-- ShopTest -->
+                  <span class="method-name">ShopTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteEcommerce-class-passed -->
+          <div class="suite-SuiteEcommerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -221,7 +238,7 @@
           <div class="suite-SuiteEcommerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testingforomi.ResponsiveMenuPageTest</span>
+              <span class="class-name">testingforomi.ResponsiveMenu.ResponsiveMenuPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -245,32 +262,32 @@
 &lt;suite name=&quot;SuiteEcommerce&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Register Page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testingforomi.RegisterPageTest&quot;/&gt;
+      &lt;class name=&quot;testingforomi.RegisterUser.RegisterPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Register Page Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Login Page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testingforomi.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;testingforomi.Login.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Page Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Shopping Page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testingforomi.ShoppingTest&quot;/&gt;
+      &lt;class name=&quot;testingforomi.Shopping.ShoppingTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Shopping Page Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Rsponsive Menu Page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testingforomi.ResponsiveMenuPageTest&quot;/&gt;
+      &lt;class name=&quot;testingforomi.ResponsiveMenu.ResponsiveMenuPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Rsponsive Menu Page Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Responsive Bouild Computer Page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testingforomi.BuildComputerTest&quot;/&gt;
+      &lt;class name=&quot;testingforomi.ResponsiveBuildComputer.BuildComputerTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Responsive Bouild Computer Page Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Responsive Advanced Search Page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testingforomi.AdvancedSearchTest&quot;/&gt;
+      &lt;class name=&quot;testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Responsive Advanced Search Page Test --&gt;
 &lt;/suite&gt; &lt;!-- SuiteEcommerce --&gt;
@@ -328,33 +345,33 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ShopTest')
-data.setCell(0, 2, 'testingforomi.ShoppingTest')
-data.setCell(0, 3, 8597);
+data.setCell(0, 2, 'testingforomi.Shopping.ShoppingTest')
+data.setCell(0, 3, 8306);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TestLogin')
-data.setCell(1, 2, 'testingforomi.LoginPageTest')
-data.setCell(1, 3, 3679);
+data.setCell(1, 1, 'MenuBurgerTesting')
+data.setCell(1, 2, 'testingforomi.ResponsiveBuildComputer.BuildComputerTest')
+data.setCell(1, 3, 3027);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'MenuBurgerTesting')
-data.setCell(2, 2, 'testingforomi.BuildComputerTest')
-data.setCell(2, 3, 2858);
+data.setCell(2, 1, 'AdvancedSearchTesting')
+data.setCell(2, 2, 'testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest')
+data.setCell(2, 3, 2820);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'AdvancedSearchTesting')
-data.setCell(3, 2, 'testingforomi.AdvancedSearchTest')
-data.setCell(3, 3, 2787);
+data.setCell(3, 1, 'TestLogin')
+data.setCell(3, 2, 'testingforomi.Login.LoginPageTest')
+data.setCell(3, 3, 2044);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'MenuBurgerTesting')
-data.setCell(4, 2, 'testingforomi.ResponsiveMenuPageTest')
-data.setCell(4, 3, 1810);
+data.setCell(4, 2, 'testingforomi.ResponsiveMenu.ResponsiveMenuPageTest')
+data.setCell(4, 3, 1583);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'TestRegister')
-data.setCell(5, 2, 'testingforomi.RegisterPageTest')
-data.setCell(5, 3, 1381);
+data.setCell(5, 2, 'testingforomi.RegisterUser.RegisterPageTest')
+data.setCell(5, 3, 974);
 window.suiteTableData['SuiteEcommerce']= { tableData: data, tableDiv: 'times-div-SuiteEcommerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-SuiteEcommerce">
               </div> <!-- times-div-SuiteEcommerce -->
             </div> <!-- times-div -->
@@ -380,93 +397,95 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testingforomi.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testingforomi.RegisterUser.RegisterPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TestRegister</span>
-                <span class="method-start">4587 ms</span>
+                <span class="method-start">3894 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">5971 ms</span>
+                <span class="method-start">4870 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testingforomi.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testingforomi.Login.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">9208 ms</span>
+                <span class="method-start">8143 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TestLogin</span>
-                <span class="method-start">12745 ms</span>
+                <span class="method-start">11708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">16427 ms</span>
+                <span class="method-start">13754 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testingforomi.ShoppingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testingforomi.Shopping.ShoppingTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">19553 ms</span>
+                <span class="method-start">16900 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">ShopTest</span>
-                <span class="method-start">23340 ms</span>
+                <span class="method-start">20757 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">31938 ms</span>
+                <span class="method-start">29063 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testingforomi.ResponsiveMenuPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testingforomi.ResponsiveMenu.ResponsiveMenuPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">31941 ms</span>
+                <span class="method-start">32698 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">MenuBurgerTesting</span>
-                <span class="method-start">36523 ms</span>
+                <span class="method-start">37104 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">38335 ms</span>
+                <span class="method-start">38688 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testingforomi.BuildComputerTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testingforomi.ResponsiveBuildComputer.BuildComputerTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">38340 ms</span>
+                <span class="method-start">41808 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">MenuBurgerTesting</span>
-                <span class="method-start">42469 ms</span>
+                <span class="method-start">45970 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">45329 ms</span>
+                <span class="method-start">49000 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testingforomi.AdvancedSearchTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">45337 ms</span>
+                <span class="method-start">52125 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">AdvancedSearchTesting</span>
-                <span class="method-start">49549 ms</span>
+                <span class="method-start">56187 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">52336 ms</span>
+                <span class="method-start">59008 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

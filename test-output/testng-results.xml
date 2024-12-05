@@ -1,105 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-04T18:37:53 COT" name="SuiteEcommerce" finished-at="2024-12-04T18:38:48 COT" duration-ms="55373">
+  <suite started-at="2024-12-04T19:56:30 COT" name="SuiteEcommerce" finished-at="2024-12-04T19:57:32 COT" duration-ms="62141">
     <groups>
     </groups>
-    <test started-at="2024-12-04T18:37:53 COT" name="Register Page Test" finished-at="2024-12-04T18:38:02 COT" duration-ms="9135">
-      <class name="testingforomi.RegisterPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.RegisterPageTest@7bf9b098]" started-at="2024-12-04T18:37:53 COT" name="beforeClass" finished-at="2024-12-04T18:37:57 COT" duration-ms="4575" status="PASS">
+    <test started-at="2024-12-04T19:56:30 COT" name="Register Page Test" finished-at="2024-12-04T19:56:38 COT" duration-ms="8038">
+      <class name="testingforomi.RegisterUser.RegisterPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.RegisterUser.RegisterPageTest@24269709]" started-at="2024-12-04T19:56:30 COT" name="beforeClass" finished-at="2024-12-04T19:56:34 COT" duration-ms="3888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TestRegister()[pri:0, instance:testingforomi.RegisterPageTest@7bf9b098]" started-at="2024-12-04T18:37:57 COT" name="TestRegister" finished-at="2024-12-04T18:37:59 COT" duration-ms="1381" status="PASS">
+        <test-method signature="TestRegister()[pri:0, instance:testingforomi.RegisterUser.RegisterPageTest@24269709]" started-at="2024-12-04T19:56:34 COT" name="TestRegister" finished-at="2024-12-04T19:56:35 COT" duration-ms="974" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[El mensaje de error se mostró.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: El mensaje de error se mostró.
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at testingforomi.RegisterUser.RegisterPageTest.TestRegister(RegisterPageTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestRegister -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.RegisterPageTest@7bf9b098]" started-at="2024-12-04T18:37:59 COT" name="afterClass" finished-at="2024-12-04T18:38:02 COT" duration-ms="3138" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.RegisterUser.RegisterPageTest@24269709]" started-at="2024-12-04T19:56:35 COT" name="afterClass" finished-at="2024-12-04T19:56:38 COT" duration-ms="3147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.RegisterPageTest -->
+      </class> <!-- testingforomi.RegisterUser.RegisterPageTest -->
     </test> <!-- Register Page Test -->
-    <test started-at="2024-12-04T18:38:02 COT" name="Login Page Test" finished-at="2024-12-04T18:38:12 COT" duration-ms="10349">
-      <class name="testingforomi.LoginPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.LoginPageTest@4108fa66]" started-at="2024-12-04T18:38:02 COT" name="beforeClass" finished-at="2024-12-04T18:38:05 COT" duration-ms="3536" status="PASS">
+    <test started-at="2024-12-04T19:56:38 COT" name="Login Page Test" finished-at="2024-12-04T19:56:47 COT" duration-ms="8754">
+      <class name="testingforomi.Login.LoginPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.Login.LoginPageTest@75db5df9]" started-at="2024-12-04T19:56:38 COT" name="beforeClass" finished-at="2024-12-04T19:56:42 COT" duration-ms="3565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TestLogin()[pri:0, instance:testingforomi.LoginPageTest@4108fa66]" started-at="2024-12-04T18:38:05 COT" name="TestLogin" finished-at="2024-12-04T18:38:09 COT" duration-ms="3679" status="PASS">
+        <test-method signature="TestLogin()[pri:0, instance:testingforomi.Login.LoginPageTest@75db5df9]" started-at="2024-12-04T19:56:42 COT" name="TestLogin" finished-at="2024-12-04T19:56:44 COT" duration-ms="2044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.LoginPageTest@4108fa66]" started-at="2024-12-04T18:38:09 COT" name="afterClass" finished-at="2024-12-04T18:38:12 COT" duration-ms="3126" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.Login.LoginPageTest@75db5df9]" started-at="2024-12-04T19:56:44 COT" name="afterClass" finished-at="2024-12-04T19:56:47 COT" duration-ms="3143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.LoginPageTest -->
+      </class> <!-- testingforomi.Login.LoginPageTest -->
     </test> <!-- Login Page Test -->
-    <test started-at="2024-12-04T18:38:12 COT" name="Shopping Page Test" finished-at="2024-12-04T18:38:25 COT" duration-ms="12386">
-      <class name="testingforomi.ShoppingTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.ShoppingTest@ecf9049]" started-at="2024-12-04T18:38:12 COT" name="beforeClass" finished-at="2024-12-04T18:38:16 COT" duration-ms="3787" status="PASS">
+    <test started-at="2024-12-04T19:56:47 COT" name="Shopping Page Test" finished-at="2024-12-04T19:57:03 COT" duration-ms="15782">
+      <class name="testingforomi.Shopping.ShoppingTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.Shopping.ShoppingTest@31f9b85e]" started-at="2024-12-04T19:56:47 COT" name="beforeClass" finished-at="2024-12-04T19:56:51 COT" duration-ms="3856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="ShopTest()[pri:0, instance:testingforomi.ShoppingTest@ecf9049]" started-at="2024-12-04T18:38:16 COT" name="ShopTest" finished-at="2024-12-04T18:38:25 COT" duration-ms="8597" status="PASS">
+        <test-method signature="ShopTest()[pri:0, instance:testingforomi.Shopping.ShoppingTest@31f9b85e]" started-at="2024-12-04T19:56:51 COT" name="ShopTest" finished-at="2024-12-04T19:56:59 COT" duration-ms="8306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShopTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.ShoppingTest@ecf9049]" started-at="2024-12-04T18:38:25 COT" name="afterClass" finished-at="2024-12-04T18:38:25 COT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.Shopping.ShoppingTest@31f9b85e]" started-at="2024-12-04T19:56:59 COT" name="afterClass" finished-at="2024-12-04T19:57:03 COT" duration-ms="3619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.ShoppingTest -->
+      </class> <!-- testingforomi.Shopping.ShoppingTest -->
     </test> <!-- Shopping Page Test -->
-    <test started-at="2024-12-04T18:38:25 COT" name="Rsponsive Menu Page Test" finished-at="2024-12-04T18:38:31 COT" duration-ms="6394">
-      <class name="testingforomi.ResponsiveMenuPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.ResponsiveMenuPageTest@70d2e40b]" started-at="2024-12-04T18:38:25 COT" name="beforeClass" finished-at="2024-12-04T18:38:29 COT" duration-ms="4582" status="PASS">
+    <test started-at="2024-12-04T19:57:03 COT" name="Rsponsive Menu Page Test" finished-at="2024-12-04T19:57:12 COT" duration-ms="9105">
+      <class name="testingforomi.ResponsiveMenu.ResponsiveMenuPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.ResponsiveMenu.ResponsiveMenuPageTest@7a675056]" started-at="2024-12-04T19:57:03 COT" name="beforeClass" finished-at="2024-12-04T19:57:07 COT" duration-ms="4405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="MenuBurgerTesting()[pri:0, instance:testingforomi.ResponsiveMenuPageTest@70d2e40b]" started-at="2024-12-04T18:38:29 COT" name="MenuBurgerTesting" finished-at="2024-12-04T18:38:31 COT" duration-ms="1810" status="PASS">
+        <test-method signature="MenuBurgerTesting()[pri:0, instance:testingforomi.ResponsiveMenu.ResponsiveMenuPageTest@7a675056]" started-at="2024-12-04T19:57:07 COT" name="MenuBurgerTesting" finished-at="2024-12-04T19:57:09 COT" duration-ms="1583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MenuBurgerTesting -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.ResponsiveMenuPageTest@70d2e40b]" started-at="2024-12-04T18:38:31 COT" name="afterClass" finished-at="2024-12-04T18:38:31 COT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.ResponsiveMenu.ResponsiveMenuPageTest@7a675056]" started-at="2024-12-04T19:57:09 COT" name="afterClass" finished-at="2024-12-04T19:57:12 COT" duration-ms="3115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.ResponsiveMenuPageTest -->
+      </class> <!-- testingforomi.ResponsiveMenu.ResponsiveMenuPageTest -->
     </test> <!-- Rsponsive Menu Page Test -->
-    <test started-at="2024-12-04T18:38:31 COT" name="Responsive Bouild Computer Page Test" finished-at="2024-12-04T18:38:38 COT" duration-ms="6994">
-      <class name="testingforomi.BuildComputerTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.BuildComputerTest@7c18432b]" started-at="2024-12-04T18:38:31 COT" name="beforeClass" finished-at="2024-12-04T18:38:35 COT" duration-ms="4128" status="PASS">
+    <test started-at="2024-12-04T19:57:12 COT" name="Responsive Bouild Computer Page Test" finished-at="2024-12-04T19:57:22 COT" duration-ms="10313">
+      <class name="testingforomi.ResponsiveBuildComputer.BuildComputerTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.ResponsiveBuildComputer.BuildComputerTest@68267da0]" started-at="2024-12-04T19:57:12 COT" name="beforeClass" finished-at="2024-12-04T19:57:16 COT" duration-ms="4162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="MenuBurgerTesting()[pri:0, instance:testingforomi.BuildComputerTest@7c18432b]" started-at="2024-12-04T18:38:35 COT" name="MenuBurgerTesting" finished-at="2024-12-04T18:38:38 COT" duration-ms="2858" status="PASS">
+        <test-method signature="MenuBurgerTesting()[pri:0, instance:testingforomi.ResponsiveBuildComputer.BuildComputerTest@68267da0]" started-at="2024-12-04T19:57:16 COT" name="MenuBurgerTesting" finished-at="2024-12-04T19:57:19 COT" duration-ms="3027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MenuBurgerTesting -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.BuildComputerTest@7c18432b]" started-at="2024-12-04T18:38:38 COT" name="afterClass" finished-at="2024-12-04T18:38:38 COT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.ResponsiveBuildComputer.BuildComputerTest@68267da0]" started-at="2024-12-04T19:57:19 COT" name="afterClass" finished-at="2024-12-04T19:57:22 COT" duration-ms="3121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.BuildComputerTest -->
+      </class> <!-- testingforomi.ResponsiveBuildComputer.BuildComputerTest -->
     </test> <!-- Responsive Bouild Computer Page Test -->
-    <test started-at="2024-12-04T18:38:38 COT" name="Responsive Advanced Search Page Test" finished-at="2024-12-04T18:38:48 COT" duration-ms="10011">
-      <class name="testingforomi.AdvancedSearchTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.AdvancedSearchTest@2449cff7]" started-at="2024-12-04T18:38:38 COT" name="beforeClass" finished-at="2024-12-04T18:38:42 COT" duration-ms="4212" status="PASS">
+    <test started-at="2024-12-04T19:57:22 COT" name="Responsive Advanced Search Page Test" finished-at="2024-12-04T19:57:32 COT" duration-ms="10001">
+      <class name="testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest@548e6d58]" started-at="2024-12-04T19:57:22 COT" name="beforeClass" finished-at="2024-12-04T19:57:26 COT" duration-ms="4062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="AdvancedSearchTesting()[pri:0, instance:testingforomi.AdvancedSearchTest@2449cff7]" started-at="2024-12-04T18:38:42 COT" name="AdvancedSearchTesting" finished-at="2024-12-04T18:38:45 COT" duration-ms="2787" status="PASS">
+        <test-method signature="AdvancedSearchTesting()[pri:0, instance:testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest@548e6d58]" started-at="2024-12-04T19:57:26 COT" name="AdvancedSearchTesting" finished-at="2024-12-04T19:57:29 COT" duration-ms="2820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdvancedSearchTesting -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.AdvancedSearchTest@2449cff7]" started-at="2024-12-04T18:38:45 COT" name="afterClass" finished-at="2024-12-04T18:38:48 COT" duration-ms="3011" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest@548e6d58]" started-at="2024-12-04T19:57:29 COT" name="afterClass" finished-at="2024-12-04T19:57:32 COT" duration-ms="3116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testingforomi.AdvancedSearchTest -->
+      </class> <!-- testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest -->
     </test> <!-- Responsive Advanced Search Page Test -->
   </suite> <!-- SuiteEcommerce -->
 </testng-results>

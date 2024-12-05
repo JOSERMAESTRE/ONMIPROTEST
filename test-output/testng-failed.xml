@@ -3,13 +3,13 @@
 <suite name="Failed suite [SuiteEcommerce]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Register Page Test(failed)">
     <classes>
-      <class name="testingforomi.RegisterPageTest">
+      <class name="testingforomi.RegisterUser.RegisterPageTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="afterClass"/>
           <include name="TestRegister"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- testingforomi.RegisterPageTest -->
+      </class> <!-- testingforomi.RegisterUser.RegisterPageTest -->
     </classes>
   </test> <!-- Register Page Test(failed) -->
 </suite> <!-- Failed suite [SuiteEcommerce] -->
