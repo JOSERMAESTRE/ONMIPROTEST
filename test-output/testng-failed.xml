@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SuiteEcommerce]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Register Page Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testingforomi.RegisterUser.RegisterPageTest">
+      <class name="testingforomi.Shopping.ShoppingTest">
         <methods>
+          <include name="ShopTest"/>
           <include name="beforeClass"/>
-          <include name="TestRegister"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- testingforomi.RegisterUser.RegisterPageTest -->
+      </class> <!-- testingforomi.Shopping.ShoppingTest -->
     </classes>
-  </test> <!-- Register Page Test(failed) -->
-</suite> <!-- Failed suite [SuiteEcommerce] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

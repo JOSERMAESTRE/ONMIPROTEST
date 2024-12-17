@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testingforomi.AdvancedSearchTest">
+      <class name="testingforomi.Shopping.ShoppingTest">
         <methods>
-          <include name="AdvancedSearchTesting"/>
+          <include name="ShopTest"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- testingforomi.AdvancedSearchTest -->
+      </class> <!-- testingforomi.Shopping.ShoppingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
