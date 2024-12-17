@@ -1,7 +1,12 @@
 package testingforomi.Shopping;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import testingforomi.Base;
 
@@ -17,7 +22,10 @@ public class CheckOut extends Base {
 
 	public void CheckingOut() {
 		System.out.println(FindElement(LinkShoppingCarLocator).getText());
-		click(LinkShoppingCarLocator);
+		WebDriverWait Wait =   new WebDriverWait(driver,Duration.ofSeconds(10));
+		WebElement linkShoppincar = Wait.until(ExpectedConditions.visibilityOfElementLocated(LinkShoppingCarLocator));
+		click(linkShoppincar);
+		//click(LinkShoppingCarLocator);
 		click(TermsCheckLocator);
 		click(CheckOutButtonLocator);
 		click(GuestButtonLocator);

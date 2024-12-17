@@ -23,7 +23,7 @@ public class AddToCar extends Base {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		if (IsDisplayed(ItemLocator)) {
 			click(AddToCarButton);
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 		} else {
 			System.out.print("no se observa el elemento");
 		}
