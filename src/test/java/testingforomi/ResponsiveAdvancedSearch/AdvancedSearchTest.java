@@ -2,7 +2,6 @@ package testingforomi.ResponsiveAdvancedSearch;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
-
 import static org.junit.Assert.assertFalse;
 
 import java.util.Map;
@@ -16,6 +15,7 @@ import org.testng.annotations.AfterClass;
 public class AdvancedSearchTest {
 	private WebDriver driver;
 	private AdvancedSearch AdvancedSearch;
+
 
   @BeforeClass
   public void beforeClass() {

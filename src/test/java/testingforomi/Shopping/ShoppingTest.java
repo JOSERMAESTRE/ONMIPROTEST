@@ -26,11 +26,9 @@ public class ShoppingTest {
 		driver = Base.WebDriverConnetor();
 		driver.manage().window().maximize();
 		Base.visit("https://demowebshop.tricentis.com/");
-
 		AddToCar = new AddToCar(driver);
 		CheckOut = new CheckOut(driver);
 		Information = new Information(driver);
-
 	}
 
 	@Test
