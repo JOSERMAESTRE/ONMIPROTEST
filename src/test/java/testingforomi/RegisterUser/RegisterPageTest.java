@@ -22,7 +22,7 @@ public class RegisterPageTest {
 
 	@Test
 	public void TestRegister() {
-		String[] Datainfo = { "Male", "Rafael", "Diaz", "jose.diaz2010@hotmail.com", "123456", "123456" };
+		String[] Datainfo = { "Male", "Rafael", "Diaz", "Diaz.Joserr@hotmail.com", "123456", "123456" };
 		RegisterPage.RegisterUser(Datainfo);
 		assertFalse("El mensaje de error se mostró.", RegisterPage.isErrorMessageDisplayed());
 	}

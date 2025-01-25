@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="SuiteEcommerce">
-	<test name="Register Page Test">
+<suite name="SuiteEcommerce" parallel="tests" thread-count="6">
+	<test name="Register Page Test" parallel="classes">
 		<classes>
 			<class name="testingforomi.RegisterUser.RegisterPageTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
-	<test name="Login Page Test">
+	<test name="Login Page Test" parallel="classes">
 		<classes>
 			<class name="testingforomi.Login.LoginPageTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
-	<test name="Shopping Page Test">
+	<test name="Shopping Page Test" parallel="classes">
 		<classes>
 			<class name="testingforomi.Shopping.ShoppingTest" />
 		</classes>
 	</test>
 
-	<test name="Rsponsive Menu Page Test">
+	<test name="Rsponsive Menu Page Test" parallel="classes">
 		<classes>
 			<class name="testingforomi.ResponsiveMenu.ResponsiveMenuPageTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
-	<test name="Responsive Bouild Computer Page Test">
+	<test name="Responsive Bouild Computer Page Test" parallel="classes">
 		<classes>
 			<class name="testingforomi.ResponsiveBuildComputer.BuildComputerTest" />
 		</classes>
 	</test> <!--
 	Test -->
 
-	<test name="Responsive Advanced Search Page Test">
+	<test name="Responsive Advanced Search Page Test" parallel="classes">
 		<classes>
 			<class name="testingforomi.ResponsiveAdvancedSearch.AdvancedSearchTest" />
 		</classes>

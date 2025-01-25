@@ -42,7 +42,7 @@ public class Information extends Base {
 	public void Billingaddress() {
 		Type("jose", FirstNameLocator);
 		Type("maestre", LastNameLocator);
-		Type("josermaestre@gmail.com", EmailLocator);
+		Type("josermae@gmail.com", EmailLocator);
 		Type("master", CompanyLocator);
 		Type("colombia", CountryLocator);
 		Type("Other", StateLocator);
